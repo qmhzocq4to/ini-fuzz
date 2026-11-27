@@ -54,7 +54,7 @@ printf '[%s]\nport=2\n' "$(printf 'a%.0s' {1..70})" >> /tmp/c1.ini
 ```
 
 The 70 byte section name is stored as the same 63 byte prefix in both entries, so the
-first `port=1` is unreachable through the public lookup. Details in issue #1.
+first `port=1` is unreachable through the public lookup. Details in issue #2.
 
 ## Mitigation
 
