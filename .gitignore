@@ -1,0 +1,7 @@
+ini-fuzz
+*.o
+*.dSYM/
+crash-*
+leak-*
+timeout-*
+corpus/*.log
